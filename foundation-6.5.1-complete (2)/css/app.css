@@ -1,0 +1,80 @@
+img {
+    border-radius:50%;
+    border: 2px rgb(168, 231, 20) solid;
+    max-width:400px;
+    max-height:400px;
+    padding:10px;
+    margin-top:20px;
+}
+
+hr {
+    color:white;
+}
+
+img:hover {
+    opacity:0.5;
+}
+
+#img2 {
+    top:0;
+    max-width:200px;
+    max-height:200px;
+    margin-right:25%;
+}
+
+body {
+    background-image:url(../css/static.jpg);
+}
+
+a:hover {
+    color:black;
+}
+
+.top-bar {
+    border-bottom:solid 2px white;
+}
+
+li {
+    font-family: 'Rajdhani', sans-serif;
+    color:black;
+    font-weight:bold;
+    font-size:100%;
+}
+
+div.top-bar-right {
+    color:black;
+}
+
+span {
+    color:black;
+    background-color:rgb(168, 231, 20);
+    border-radius:5px;
+    border: black 2px solid;
+    padding:10px;
+}
+
+form {
+    margin-top:50px;
+    border: 2px solid white;
+    
+    padding: 30px;
+}
+
+p {
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:bold;
+    font-size:150%;
+}
+
+button.button.hollow {
+    color:rgb(168, 231, 20);
+    border-color:rgb(168, 231, 20);
+    margin-left:45%;
+    margin-top:10px;
+}
+
+button.button.hollow:hover {
+    color:white;
+    border:white 1px solid;
+}
