@@ -98,3 +98,38 @@ button.button.hollow:hover {
     font-size:200%;
     margin-top:150%;
 }
+
+#email {
+    font-family: 'Rajdhani', sans-serif;
+    color:white;
+    margin-right:23%;
+}
+
+@media only screen and (max-width: 480px) {
+    #myface {
+        max-width:300px;
+        max-height:300px;
+    }
+    .carousel { 
+        margin-top:20px;
+        margin-left:0%;
+    }
+
+    button.button.hollow {
+        margin-left:40%;
+    }
+
+    img#img2 {
+        margin-right:32%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #myface {
+        max-width:200px;
+        max-height:200px;
+    }
+    img#img2 {
+        margin-right:15%;
+    }
+}
