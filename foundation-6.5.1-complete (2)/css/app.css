@@ -1,14 +1,18 @@
 #myface {
     border-radius:50%;
     border: 2px rgb(168, 231, 20) solid;
-    max-width:400px;
-    max-height:400px;
+    max-width:300px;
+    max-height:300px;
     padding:10px;
     margin-top:20px;
 }
 
 hr {
     color:white;
+}
+
+#top-hr {
+    margin-top:50px;
 }
 
 img:hover {
@@ -24,11 +28,29 @@ img:hover {
     border: 2px rgb(168, 231, 20) solid;
     padding:10px;
     margin-top:20px;
+    margin-bottom:20px;
 }
 
 body {
     background-image:url(../css/static.jpg);
 }
+
+#main-load {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+
 
 a:hover {
     color:black;
@@ -73,6 +95,7 @@ p {
 
 .description {
     background-color:rgb(168, 231, 20);
+    color:black;
 }
 
 button.button.hollow {
@@ -105,6 +128,15 @@ button.button.hollow:hover {
     margin-right:23%;
 }
 
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 480px) {
     #myface {
         max-width:300px;
@@ -130,6 +162,6 @@ button.button.hollow:hover {
         max-height:200px;
     }
     img#img2 {
-        margin-right:10%;
+        margin-right:15%;
     }
 }
