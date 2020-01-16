@@ -23,7 +23,6 @@ img:hover {
     top:0;
     max-width:200px;
     max-height:200px;
-    margin-right:25%;
     border-radius:50%;
     border: 2px rgb(168, 231, 20) solid;
     padding:10px;
@@ -125,7 +124,16 @@ button.button.hollow:hover {
 #email {
     font-family: 'Rajdhani', sans-serif;
     color:white;
-    margin-right:23%;
+    float:right;
+
+}
+
+#phone {
+    float:right;
+}
+
+#github {
+    float:right;
 }
 
 
